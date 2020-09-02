@@ -60,6 +60,7 @@ h4 {
 .center {
     display: flex!important;
     align-items: center;
+    align-self: center;
 }
 
 header {
@@ -69,6 +70,35 @@ header {
     background-size: cover;
     background-position: center center;
     padding: 50px 0;
+}
+
+ion-icon {
+    color: #ffad35;
+    font-size: 2.5rem;
+    margin-right: 1rem;
+}
+
+a,
+a ion-icon {
+    color: #fff;
+    text-decoration: none;
+}
+
+a ion-icon:hover {
+    color: #ffad35;
+}
+
+header .redes {
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+    font-size: 2.5rem;
+    margin-bottom: 4rem;
+}
+
+header .redes ion-icon {
+    margin: 0 1rem;
 }
 
 header img {
@@ -186,12 +216,6 @@ header img {
     content: '$';
 }
 
-.tab-pane ion-icon {
-    color: #ffad35;
-    font-size: 2.5rem;
-    margin-right: 1rem;
-}
-
 .menu-last {
     margin: 3rem;
 }
@@ -199,7 +223,10 @@ header img {
 .menu-last img {
     height: 7rem;
     width: auto;
+    margin: 2rem;
 }
+
+.menu-last ion-icon {}
 
 footer {
     color: #989898;
