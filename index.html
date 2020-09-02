@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resto Bar</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/default.css">
+
+</head>
+
+<body>
+    <header>
+        <img src="/img/logo-w-full.png" alt="logo">
+    </header>
+    <main class="container">
+        <h1>Nuestro Menu</h1>
+        <div class="menu">
+            <ul class="nav nav-tabs group row" role="tablist">
+                <li role="presentation" class="item col-md-6 col-lg-3">
+                    <div class="menu-item entradas" data-toggle="tab" href="#entradas" role="tab">
+                        <div class="text">
+                            <h3>entradas</h3>
+                        </div>
+                    </div>
+                </li>
+                <li role="presentation" class="item col-md-6 col-lg-3">
+                    <div class="menu-item ensaladas" data-toggle="tab" href="#ensaladas" role="tab">
+                        <div class="text">
+                            <h3>ensaladas</h3>
+                        </div>
+                    </div>
+                </li>
+                <li role="presentation" class="item col-md-6 col-lg-3">
+                    <div class="menu-item pizzas" data-toggle="tab" href="#pizzas" role="tab">
+                        <div class="text">
+                            <h3>pizzas</h3>
+                        </div>
+                    </div>
+                </li>
+                <li role="presentation" class="item col-md-6 col-lg-3">
+                    <div class="menu-item woks" data-toggle="tab" href="#woks" role="tab">
+                        <div class="text">
+                            <h3>woks</h3>
+                        </div>
+                    </div>
+                </li>
+                <li role="presentation" class="item col-md-6 col-lg-3">
+                    <div class="menu-item parrilla" data-toggle="tab" href="#parrilla" role="tab">
+                        <div class="text">
+                            <h3>parrilla</h3>
+                        </div>
+                    </div>
+                </li>
+                <li role="presentation" class="item col-md-6 col-lg-3">
+                    <div class="menu-item hamburguesas" data-toggle="tab" href="#hamburguesas" role="tab">
+                        <div class="text">
+                            <h3>burguers</h3>
+                        </div>
+                    </div>
+                </li>
+                <li role="presentation" class="item col-md-6 col-lg-3">
+                    <div class="menu-item sandwiches" data-toggle="tab" href="#sandwiches" role="tab">
+                        <div class="text">
+                            <h3>Sandwich</h3>
+                        </div>
+                    </div>
+                </li>
+                <li role="presentation" class="item col-md-6 col-lg-3">
+                    <div class="menu-item postres" data-toggle="tab" href="#postres" role="tab">
+                        <div class="text">
+                            <h3>postres</h3>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+
+            <div class="tab-content">
+                <div class="tab-pane fade show active" id="entradas" role="tabpanel" aria-labelledby="home-tab">
+                    <h2>Entradas</h2>
+                    <ul>
+                        <li>
+                            <span class="strong center"><ion-icon name="paw"></ion-icon>Bastones Crocantes de Mozzarella:</span>
+                            <p><span class="description">Bastones del más rico queso Mozzarella, rebozados y condimentados. Fritos.</span><span class="dotted"> </span></span><span class="price strong center">500</span></p>
+                        </li>
+                        <li>
+                            <span class="strong center"><ion-icon name="paw"></ion-icon>Variedad de Bruschettas:</span>
+                            <p><span class="description">Con Aceite de Oliva y Albahaca. Manteca y Pimienta. Pimentón.</span><span class="dotted"> </span><span class="price strong center">250</span></p>
+                        </li>
+                        <li>
+                            <span class="strong center"><ion-icon name="paw"></ion-icon>Provoleta Gratinada:</span>
+                            <p><span class="description">Un medall&oacute;n de Provoleta de la casa.</span><span class="dotted"> </span><span class="price strong center">85</span></p>
+                        </li>
+                        <li>
+                            <span class="strong center"><ion-icon name="paw"></ion-icon> Langostinos Rebozados:</span>
+                            <p><span class="description">6 langostinos rebozados en panco. Fritos. Acompa&ntilde;a con una salsa a elección.</span><span class="dotted"> </span><span class="price strong center">130</span></p>
+                        </li>
+                        <li>
+                            <span class="strong center"><ion-icon name="paw"></ion-icon>Picada Cl&aacute;sica:</span>
+                            <p><span class="description">Para 2 personas. Picada cl&aacute;sica con Jam&oacute;n Serrano, Queso Gouda, Salame de Mil&aacute;n y Aceitunas.</span><span class="dotted"> </span><span class="price strong center">75</span></p>
+                        </li>
+                        <li>
+                            <span class="strong center"><ion-icon name="paw"></ion-icon>Papas con Cheddar y Bacon:</span>
+                            <p><span class="description">Papas r&uacute;sticas en un mar de queso Cheddar y Bacon de la casa.</span><span class="dotted"> </span><span class="price strong center">145</span></p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-pane fade" id="ensaladas" role="tabpanel">
+                    <h2>Ensaladas</h2>
+                    <ul>
+                        <li>
+                            <span class="strong center"><ion-icon name="paw"></ion-icon>Mixta de Vegetales:</span>
+                            <p><span class="description">Ensalada mixta con hasta 6 vegetales a elección.</span><span class="dotted"> </span><span class="price strong center">60</span></p>
+                        </li>
+                        <li>
+                            <span class="strong center"><ion-icon name="paw"></ion-icon>Capresse:
+                            </span>
+                            <p><span class="description">Ensadala mix de hojas verdes, con Albahaca, Mozzarella y un toque de aceite de Oliva.</span><span class="dotted"> </span><span class="price strong center">110</span></p>
+                        </li>
+                        <li>
+                            <span class="strong center"><ion-icon name="paw"></ion-icon>Caesar:
+                            </span>
+                            <p><span class="description">Ensalada mix de hojas verdes, con Pechuga a la plancha y salsa Caesar especial.</span><span class="dotted"> </span><span class="price strong center">115</span></p>
+                        </li>
+                        <li>
+                            <span class="strong center"><ion-icon name="paw"></ion-icon>Atún:
+                            </span>
+                            <p><span class="description">Ensalada mix de hojas verdes, papa, huevo y Atún.</span><span class="dotted"> </span><span class="price strong center">140</span></p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-pane fade" id="pizzas" role="tabpanel">
+                    <h2>Pizzas</h2>
+                    <ul>
+                        <li>
+                            <span class="strong center"><ion-icon name="paw"></ion-icon>Cl&aacute;sica de Mozzarella:</span>
+                            <p><span class="description">Pizza clásica a la piedra, con salsa de la casa, Mozzarella, Or&eacute;gano y Aceitunas.</span><span class="dotted"> </span><span class="price strong center">320</span></p>
+                        </li>
+                        <li>
+                            <span class="strong center"><ion-icon name="paw"></ion-icon>4 quesos:</span>
+                            <p><span class="description">Pizza clásica a la piedra, con salsa de la casa, Mozzarella, Provolone, Roquefort, Gauda, Or&eacute;gano y Aceitunas.</span><span class="dotted"> </span><span class="price strong center">395</span></p>
+                        </li>
+                        <li>
+                            <span class="strong center"><ion-icon name="paw"></ion-icon>Calabresa:
+                            </span>
+                            <p><span class="description">Pizza clásica a la piedra, con salsa de la casa, Mozzarella, Salame Milan, Or&eacute;gano y Aceitunas.</span><span class="dotted"> </span><span class="price strong center">410</span></p>
+                        </li>
+                        <li>
+                            <span class="strong center"><ion-icon name="paw"></ion-icon>Capresse:
+                            </span>
+                            <p><span class="description">Pizza clásica a la piedra, con salsa de la casa, Mozzarella, Albhaca, Ajo y Aceitunas.</span><span class="dotted"> </span><span class="price strong center">460</span></p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-pane fade" id="woks" role="tabpanel">
+                    <h2>Woks</h2>
+                    <ul>
+                        <li>
+                            <span class="strong center"><ion-icon name="paw"></ion-icon>Del Mar:</span>
+                            <p><span class="description">Arróz Blanco, Salteado de Vegetales y Frutos del Mar.</span><span class="dotted"> </span><span class="price strong center">130</span></p>
+                        </li>
+                        <li>
+                            <span class="strong center"><ion-icon name="paw"></ion-icon>Ramen:
+                            </span>
+                            <p><span class="description">Sopa suave de Camarón, con Narutos, Huevo y Cerdo Frito.</span><span class="dotted"> </span><span class="price strong center">115</span></p>
+                        </li>
+                        <li>
+                            <span class="strong center"><ion-icon name="paw"></ion-icon>Cerdo:
+                            </span>
+                            <p><span class="description">Fideos de Arróz salteados con salsa de Soja y carne de cerdo filetada.</span><span class="dotted"> </span><span class="price strong center">160</span></p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-pane fade" id="parrilla" role="tabpanel" aria-labelledby="contact-tab">
+                    <h2>Parrilla</h2>
+                    <ul>
+                        <li>
+                            <span class="strong center"><ion-icon name="paw"></ion-icon>Parrillada cl&aacute;sica:</span>
+                            <p><span class="description">Completa para 2 personas. Incluye todos los cortes cl&aacute;sicos la selección del día</span><span class="dotted"> </span><span class="price strong center">1500</span></li>
+                    </ul>
+                </div>
+                <div class="tab-pane fade" id="hamburguesas" role="tabpanel" aria-labelledby="home-tab">
+                    <h2>Hamburguesas</h2>
+                    <ul>
+                        <li>
+                            <span class="strong center"><ion-icon name="paw"></ion-icon>Cl&aacute;sica:
+                            </span>
+                            <p><span class="description">De pollo, carne o vegetariana. En pan casero y salsas a elecci&oacute;n</span><span class="dotted"> </span><span class="price strong center">220</span></li>
+                        <li>
+                            <span class="strong center"><ion-icon name="paw"></ion-icon>Cheddar y Bacon:</span>
+                            <p><span class="description">De pollo, carne o vegetariana. En pan casero, Cheddar, Bacon y salsas a elecci&oacute;n</span><span class="dotted"> </span><span class="price strong center">225</span></li>
+                        <li>
+                            <span class="strong center"><ion-icon name="paw"></ion-icon>Montana:</span>
+                            <p><span class="description">De pollo, carne o vegetariana. En pan casero, Roquefort y salsas a elecci&oacute;n</span><span class="dotted"> </span><span class="price strong center">240</span></li>
+                        <li>
+                            <span class="strong center"><ion-icon name="paw"></ion-icon>Lucky Charm:</span>
+                            <p><span class="description">De pollo, carne o vegetariana. En pan casero, Mostaza Dulce y salsas a elecci&oacute;n</span><span class="dotted"> </span><span class="price strong center">280</span></li>
+                    </ul>
+                </div>
+                <div class="tab-pane fade" id="sandwiches" role="tabpanel">
+                    <h2>Sandwich</h2>
+                    <ul>
+                        <li>
+                            <span class="strong center"><ion-icon name="paw"></ion-icon>Choripán:
+                            </span>
+                            <p><span class="description">Choripan cl&aacute;sico, en pan del crocante del día y salsas a elecci&oacute;n.</span><span class="dotted"> </span><span class="price strong center">65</span></p>
+                        </li>
+                        <li>
+                            <span class="strong center"><ion-icon name="paw"></ion-icon>Sanguche de vacio:</span>
+                            <p><span class="description">Corte de Vacio jugoso, en pan del crocante del día y salsas a elecci&oacute;n.</span><span class="dotted"> </span><span class="price strong center">75</span></p>
+                        </li>
+                        <li>
+                            <span class="strong center"><ion-icon name="paw"></ion-icon>Jam&oacute;n y Queso:</span>
+                            <p><span class="description">Cl&aacute;sico, en pan del crocante del día y salsas a elecci&oacute;n.</span><span class="dotted"> </span><span class="price strong center">80</span></p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-pane fade" id="postres" role="tabpanel" aria-labelledby="contact-tab">
+                    <h2>Postres</h2>
+                    <ul>
+                        <li>
+                            <span class="strong center"><ion-icon name="paw"></ion-icon>Helado:</span>
+
+                            <p><span class="description">2 bochas de helado a elecci&oacute;n de sabor.</span><span class="dotted"> </span><span class="price strong center">115</span></p>
+                        </li>
+                        <li>
+                            <span class="strong center"><ion-icon name="paw"></ion-icon>Cheesecake:</span>
+
+                            <p><span class="description">Masa húmeda de coco con relleno de queso crema y salsa de frutos rojos</span><span class="dotted"> </span><span class="price strong center">160</span></li>
+                        <li>
+                            <span class="strong center"><ion-icon name="paw"></ion-icon> Lemon Pie:</span>
+                            <p><span class="description">Masa húmeda de vainilla con relleno sabor Lim&oacute;n y Merengue Italiano.</span><span class="dotted"> </span><span class="price strong center">135</span></p>
+                        </li>
+                        <li>
+                            <span class="strong center"><ion-icon name="paw"></ion-icon>Chocolate:</span>
+                            </span>
+                            <p><span class="description">Variedad de chocolates de la casa</span><span class="dotted"> </span><span class="price strong center">180</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="menu-last">
+                <p>Todos nuestros platos incluyen <span class="strong">Salad Bar libre</span> y bebida a elecci&oacute;n. Consulte.</p>
+                <img src="img/logo-b.png" alt="logo">
+            </div>
+
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2020 ORT. Proyecto para NUEVAS TECNOLOG&Iacute;AS. 12G Grupo 7 | Vila Pereira - Pereira Sanchez </p>
+    </footer>
+
+    <!--Scripts Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    <script src="js/default.js"></script>
+</body>
+
+</html>
